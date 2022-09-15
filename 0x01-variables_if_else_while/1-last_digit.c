@@ -15,7 +15,7 @@ n = rand() - RAND_MAX / 2;
 
 if (n < 0)
 {
-lastDigit = n % 10 * -1;
+lastDigit = n % 10;
 }
 else
 {
