@@ -15,11 +15,11 @@ n = rand() - RAND_MAX / 2;
 
 if (n < 0)
 {
-lastDigit = -(n % 10)
+lastDigit = -(n % 10);
 }
 else
 {
-lastDigit = n % 10
+lastDigit = n % 10;
 }
 
 
