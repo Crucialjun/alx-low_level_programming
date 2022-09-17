@@ -10,7 +10,7 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-printf(i);
+printf("%d", i);
 }
 /* returns 0 */
 return (0);
