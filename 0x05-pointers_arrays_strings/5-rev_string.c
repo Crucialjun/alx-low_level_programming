@@ -11,8 +11,6 @@ void rev_string(char *s)
 {
 int length, i, j = 0, k;
 
-length = strlen(s);
-
 char endString[1000];
 
 length = strlen(s);
