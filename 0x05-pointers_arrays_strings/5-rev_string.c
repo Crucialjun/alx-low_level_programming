@@ -13,7 +13,7 @@ int length, i, j = 0, k;
 
 length = strlen(s);
 
-char endString[length + 1];
+char endString[1000];
 
 length = strlen(s);
 
