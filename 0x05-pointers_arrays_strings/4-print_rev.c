@@ -17,6 +17,5 @@ for (i = length; i > length; --i)
 {
 printf("%x\n", s[i]);
 }
-return (0);
 }
 
