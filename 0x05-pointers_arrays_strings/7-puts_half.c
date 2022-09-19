@@ -25,5 +25,5 @@ for (i = n; i < length ; ++i)
 {
 putchar(str[i]);
 }
-printf("\n")
+printf("\n");
 }
