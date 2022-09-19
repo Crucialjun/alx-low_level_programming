@@ -9,11 +9,11 @@
  */
 void print_rev(char *s)
 {
-int length, temp;
+int length, temp, i;
 
 length = strlen(s);
 
-for (int i = 0; i < len / 2; i++)
+for (i = 0; i < len / 2; i++)
 {
 temp = s[i];
 s[i] = s[length - i - 1];
