@@ -17,13 +17,12 @@ length = strlen(s);
 
 for (i = length - 1; i >= 0; --i)
 {
-        endString[j] = s[i];
-        ++j;
+endString[j] = s[i];
+++j;
 }
 
-for (k = 0; k < length;k++)
+for (k = 0; k < length; k++)
 {
-    s[k] = endString[k];
+s[k] = endString[k];
 }
-
 }
