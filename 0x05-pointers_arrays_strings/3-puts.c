@@ -8,6 +8,6 @@
  */
 void _puts(char *str)
 {
-printf(str);
+printf("%c", str);
 }
 
