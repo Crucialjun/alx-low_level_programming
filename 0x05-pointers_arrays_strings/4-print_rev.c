@@ -15,7 +15,7 @@ length = strlen(s);
 
 for (i = length; i > length; --i)
 {
-printf("%x", s[i]);
+putchar(s[i])
 }
 printf("\n");
 }
