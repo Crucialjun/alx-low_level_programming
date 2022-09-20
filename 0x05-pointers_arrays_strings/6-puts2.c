@@ -1,27 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts_half - check the code
+ * puts2 - check the code
  *
  * @str : char pointer
  *
  * Return: length of s.
  */
-void puts_half(char *str)
+void puts2(char *str)
 {
-int length,i,n;
+int length, i;
 
 length = strlen(str);
-
-if (length % 2 != 0)
-{
-n = (length - 1) / 2;
-}
-else
-{
-n = length / 2;
-}
-for(i = n;i < length ; ++i)
+for (i = 0; i < length; i = i + 2)
 {
 putchar(str[i]);
 }
