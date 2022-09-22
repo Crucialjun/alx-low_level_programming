@@ -12,7 +12,6 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 unsigned int i;
-unsigned int size;
 i = 0;
 size = 0;
 while (src[i] && i < n)
