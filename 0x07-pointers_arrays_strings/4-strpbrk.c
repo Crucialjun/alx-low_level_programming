@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *_strbrk - check the code
+ *_strpbrk - check the code
  *
  * @s : char
  *
@@ -9,7 +9,7 @@
  *
  * Return:pointer
  */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 int i;
 
