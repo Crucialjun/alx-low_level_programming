@@ -18,11 +18,11 @@ int i, j;
 		{
 			if (j == 7)
 			{
-				_putchar(a[i][j]);
-				_putchar('\n');
+				putchar(a[i][j]);
+				putchar('\n');
 			}
 			else
-				_putchar(a[i][j]);
+				putchar(a[i][j]);
 		}
 	}
 }
