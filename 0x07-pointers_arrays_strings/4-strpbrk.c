@@ -9,7 +9,7 @@
  *
  * Return:pointer
  */
-char _strbrk(char *s, char *accept)
+char *_strbrk(char *s, char *accept)
 {
 int i;
 
