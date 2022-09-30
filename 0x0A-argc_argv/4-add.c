@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - adds numbers
  * @argc: number of arguments passed to the function
