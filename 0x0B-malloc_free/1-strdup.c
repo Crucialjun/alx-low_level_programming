@@ -1,6 +1,6 @@
 #include <stdlib.h>
 /**
- * create_array - check code
+ * _strdup - check code
  * @str: char
  *
  * Return: pointer or null
