@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct dog
+ * struct dog - check code
  * @name: First member
  * @age: Second member
  * @owner: Third member
@@ -11,9 +11,9 @@
  */
 struct dog
 {
-    char *name;
-    float age;
-    char *owner;
+char *name;
+float age;
+char *owner;
 };
 
 /**
