@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/0x12-singly_linked_lists"
             ],
             "defines": [
                 "_DEBUG",
